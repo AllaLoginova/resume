@@ -7,7 +7,7 @@ Interactive HTML resume of Python developer with portfolio projects.
 
 ## 📁 Structure
 - `index.html` - Main HTML resume file
-- Responsive design for all devices
+
 - Project portfolio with live links
 - Technology stack visualization
 
