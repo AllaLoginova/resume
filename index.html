@@ -14,8 +14,8 @@
             background-color: #f5f5f5;
         }
         .header {
-            display: flex; /* Меняем на flex для размещения фото и текста в строку */
-            align-items: center; /* Выравниваем элементы по вертикали по центру */
+            display: flex; 
+            align-items: center; 
             margin-bottom: 30px;
             background-color: white;
             padding: 30px;
@@ -24,20 +24,19 @@
         }
         /* Контейнер для фотографии */
         .photo-container {
-            flex-shrink: 0; /* Чтобы фото не сжималось */
-            margin-right: 30px; /* Отступ от текста */
+            flex-shrink: 0; 
+            margin-right: 30px; 
         }
         .photo {
-            width: 150px; /* Ширина фотографии */
-            height: 150px; /* Высота фотографии */
-            border-radius: 50%; /* Круглая фотография (замените на 8px для квадратной с скругленными углами) */
-            object-fit: cover; /* Чтобы изображение заполнило область, не искажаясь */
-            border: 3px solid #3498db; /* Рамка вокруг фото */
+            width: 150px; 
+            height: 150px; 
+            border-radius: 50%;
+            object-fit: cover; 
+            border: 3px solid #3498db; 
             box-shadow: 0 2px 6px rgba(0,0,0,0.15);
         }
         .header-content {
-            flex-grow: 1; /* Текстовый блок занимает оставшееся пространство */
-        }
+            flex-grow: 1; 
         .section {
             background-color: white;
             padding: 25px;
@@ -93,7 +92,7 @@
         }
         .contact-info {
             display: flex;
-            justify-content: flex-start; /* Изменено с center на flex-start */
+            justify-content: flex-start;
             flex-wrap: wrap;
             gap: 15px;
             margin-top: 10px;
@@ -125,7 +124,6 @@
     <div class="header">
         <!-- НАЧАЛО: Блок с фотографией -->
         <div class="photo-container">
-            <!-- ВАЖНО: ЗАМЕНИТЕ ССЫЛКУ НА СВОЮ РЕАЛЬНУЮ ФОТОГРАФИЮ -->
            <img src="assets/photo.jpg" alt="Алла Логинова на выпускном IT-Академии, 2025 год. В мантии с дипломом Backend-разработчика." class="photo">
         </div>
         <!-- КОНЕЦ: Блок с фотографией -->
@@ -141,8 +139,6 @@
             </div>
         </div>
     </div>
-
-    <!-- Остальная часть резюме остается БЕЗ ИЗМЕНЕНИЙ -->
     <div class="section">
         <h2>Цель</h2>
         <p>Мотивированный начинающий разработчик с глубоким жизненным опытом и доказанной способностью к интенсивному самостоятельному обучению. Освоила программирование с нуля за 4 года, пройдя путь от книги по Python до очного курса backend-разработки. Ищу команду, где смогу применять знания Python/Django/FastAPI, вносить реальный вклад в проекты и стремительно расти под руководством опытных коллег. Обладаю уникальным сочетанием жизненной устойчивости, взрослой ответственности и гибкости ума начинающего разработчика.</p>
@@ -218,7 +214,7 @@
         <div class="project">
             <h3>2. CookBook — дипломный проект на Django</h3>
             <p><strong>Стек:</strong> Python, Django, PostgreSQL, HTML/CSS, деплой на хостинге</p>
-            <p><strong>Ссылка на работающий сайт:</strong> <a href="https://django-cook-logal.na4u.ru/" target="_blank">https://django-cook-logal.na4u.ru/</a></p>
+            <p><strong>Ссылка на работающий сайт(пока не адаптирован для мобильных устройств):</strong> <a href="https://django-cook-logal.na4u.ru/" target="_blank">https://django-cook-logal.na4u.ru/</a></p>
             
             <div class="story">
                 <strong>История проекта:</strong> Первый серьезный проект, разработанный в рамках обучения. 
